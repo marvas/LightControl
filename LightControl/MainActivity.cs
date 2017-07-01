@@ -4,6 +4,7 @@ using Android.OS;
 using System.Collections.Generic;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
+using Android.Views;
 
 namespace LightControl
 {
@@ -25,17 +26,35 @@ namespace LightControl
             drawerLayout = FindViewById<DrawerLayout> (Resource.Id.leftDrawer);
             leftDrawer = FindViewById<ListView> (Resource.Id.leftListView);
 
-            leftItems.Add("First left item");
-            leftItems.Add("Second left item");
+            leftItems.Add("Todo");
+            leftItems.Add("Weather");
+            leftItems.Add("Outdoor lighting");
+            leftItems.Add("Jacuzzi");
+            leftItems.Add("About");
 
-            //drawerToggle = new ActionBarDrawerToggle (this, drawerLayout, Resource.Drawable.ic_view_headline_black_24dp, Resource.String.ns_menu_close);
+            drawerToggle = new ActionBarDrawerToggle (this, drawerLayout, Resource.String.open_drawer, Resource.String.close_drawer);
 
             leftAdapter = new ArrayAdapter (this, Android.Resource.Layout.SimpleListItem1, leftItems);
             leftDrawer.Adapter = leftAdapter;
 
-            //drawerLayout.SetDrawerListener(drawerToggle);
+            drawerLayout.AddDrawerListener(drawerToggle);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             ActionBar.SetHomeButtonEnabled(true);
+        }
+
+        protected override void OnPostCreate(Bundle savedInstanceState)
+        {
+            base.OnPostCreate(savedInstanceState);
+            drawerToggle.SyncState();
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            if (drawerToggle.OnOptionsItemSelected(item))
+            {
+                return true;
+            }
+            return base.OnOptionsItemSelected(item);
         }
     }
 }
