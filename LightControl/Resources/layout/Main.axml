@@ -4,26 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/Bue">
-    <!-- The main content view -->
+<!-- The main content view -->
     <FrameLayout
         android:id="@+id/content_frame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:id="@+id/tvText"
-            android:text="Hey slide me"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
-    </FrameLayout>
-    <!-- The navigation drawer -->
+        android:layout_height="match_parent" />
+<!-- The navigation drawer -->
     <ListView
         android:id="@+id/leftListView"
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="left"
         android:choiceMode="singleChoice"
-        android:divider="#D2D2D2"
-        android:dividerHeight="2dp"
-        android:background="#F2F2F2" />
+        android:divider="#7FFFE4CD"
+        android:dividerHeight="1dp"
+        android:background="#7F303030" />
 </android.support.v4.widget.DrawerLayout>
