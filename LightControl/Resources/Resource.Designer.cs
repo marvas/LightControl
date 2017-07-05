@@ -3079,11 +3079,14 @@ namespace LightControl
 			// aapt resource value: 0x7f02007c
 			public const int lb_text_dot_two_small = 2130837628;
 			
-			// aapt resource value: 0x7f02007e
-			public const int notification_template_icon_bg = 2130837630;
+			// aapt resource value: 0x7f02007f
+			public const int notification_template_icon_bg = 2130837631;
 			
 			// aapt resource value: 0x7f02007d
 			public const int preference_list_divider_material = 2130837629;
+			
+			// aapt resource value: 0x7f02007e
+			public const int Splashscreen = 2130837630;
 			
 			static Drawable()
 			{
@@ -3222,23 +3225,23 @@ namespace LightControl
 			// aapt resource value: 0x7f09002e
 			public const int always = 2131296302;
 			
-			// aapt resource value: 0x7f0900fc
-			public const int background_color = 2131296508;
+			// aapt resource value: 0x7f0900fe
+			public const int background_color = 2131296510;
 			
 			// aapt resource value: 0x7f0900b9
 			public const int background_container = 2131296441;
 			
-			// aapt resource value: 0x7f0900ff
-			public const int background_dim = 2131296511;
+			// aapt resource value: 0x7f090101
+			public const int background_dim = 2131296513;
 			
-			// aapt resource value: 0x7f0900fe
-			public const int background_imagein = 2131296510;
+			// aapt resource value: 0x7f090100
+			public const int background_imagein = 2131296512;
+			
+			// aapt resource value: 0x7f0900ff
+			public const int background_imageout = 2131296511;
 			
 			// aapt resource value: 0x7f0900fd
-			public const int background_imageout = 2131296509;
-			
-			// aapt resource value: 0x7f0900fb
-			public const int background_theme = 2131296507;
+			public const int background_theme = 2131296509;
 			
 			// aapt resource value: 0x7f09002b
 			public const int beginning = 2131296299;
@@ -3831,6 +3834,12 @@ namespace LightControl
 			// aapt resource value: 0x7f090052
 			public const int spacer = 2131296338;
 			
+			// aapt resource value: 0x7f0900fc
+			public const int splashImageView = 2131296508;
+			
+			// aapt resource value: 0x7f0900fb
+			public const int splashScreen = 2131296507;
+			
 			// aapt resource value: 0x7f090008
 			public const int split_action_bar = 2131296264;
 			
@@ -4365,7 +4374,10 @@ namespace LightControl
 			public const int select_dialog_singlechoice_material = 2130903145;
 			
 			// aapt resource value: 0x7f03006a
-			public const int support_simple_spinner_dropdown_item = 2130903146;
+			public const int Splash = 2130903146;
+			
+			// aapt resource value: 0x7f03006b
+			public const int support_simple_spinner_dropdown_item = 2130903147;
 			
 			static Layout()
 			{
