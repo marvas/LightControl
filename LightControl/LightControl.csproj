@@ -82,10 +82,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutActivity.cs" />
+    <Compile Include="InformationActivity.cs" />
+    <Compile Include="JacuzziActivity.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="OutdoorLightsActivity.cs" />
+    <Compile Include="PoiActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreenActivity.cs" />
+    <Compile Include="WeatherActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -109,9 +115,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ic_view_headline_black_24dp.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Hytte_front.jpeg" />

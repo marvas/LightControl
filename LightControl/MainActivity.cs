@@ -26,10 +26,11 @@ namespace LightControl
             drawerLayout = FindViewById<DrawerLayout> (Resource.Id.leftDrawer);
             leftDrawer = FindViewById<ListView> (Resource.Id.leftListView);
 
-            leftItems.Add("Todo");
+            leftItems.Add("Information");
             leftItems.Add("Weather");
             leftItems.Add("Outdoor lighting");
             leftItems.Add("Jacuzzi");
+            leftItems.Add("Points of interest");
             leftItems.Add("About");
 
             drawerToggle = new ActionBarDrawerToggle (this, drawerLayout, Resource.String.open_drawer, Resource.String.close_drawer);
