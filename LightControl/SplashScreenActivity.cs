@@ -22,6 +22,9 @@ namespace LightControl
             Action startMainActivity = () =>
             {
                 StartActivity(typeof(MainActivity));
+
+                // Add custom fade in and fade out when switching to main activity
+                OverridePendingTransition(Resource.Animation.FadeIn, Resource.Animation.FadeOut);
             };
 
             // Delays start of main activity by set amount seconds
