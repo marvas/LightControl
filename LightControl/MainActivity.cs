@@ -8,7 +8,7 @@ using Android.Views;
 
 namespace LightControl
 {
-    [Activity(Label = "MainActivity")]
+    [Activity(Label = "LightControl")]
     public class MainActivity : Activity
     {
         DrawerLayout drawerLayout;
