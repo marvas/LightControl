@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/splashScreen"
@@ -12,4 +12,17 @@
         android:src="@drawable/Splashscreen"
         android:layout_gravity="center"
      />
-</LinearLayout>
+    <TextView
+      android:id="@+id/splashTextView"
+      android:text="@string/welcome"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:textColor="@color/white"
+      android:textSize="25sp"
+      android:shadowColor="@color/text_shadow"
+      android:shadowDx="2"
+      android:shadowDy="2"
+      android:shadowRadius="3"
+      />
+</RelativeLayout>

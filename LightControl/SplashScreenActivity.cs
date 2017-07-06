@@ -1,10 +1,13 @@
 ﻿using Android.App;
+using Android.Content.PM;
 using Android.OS;
 using System;
 
 namespace LightControl
 {
-    [Activity(MainLauncher = true, NoHistory = true, Label = "SplashScreen", Theme = "@android:style/Theme.NoTitleBar", Icon = "@drawable/Icon")]
+    [Activity(MainLauncher = true, NoHistory = true, Label = "SplashScreen", 
+        Theme = "@android:style/Theme.NoTitleBar", Icon = "@drawable/Icon", 
+        ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashScreenActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
