@@ -1514,6 +1514,9 @@ namespace LightControl
 			// aapt resource value: 0x7f0e0009
 			public const int background_material_light = 2131623945;
 			
+			// aapt resource value: 0x7f0e0070
+			public const int black = 2131624048;
+			
 			// aapt resource value: 0x7f0e000a
 			public const int bright_foreground_disabled_material_dark = 2131623946;
 			
@@ -1823,14 +1826,11 @@ namespace LightControl
 			// aapt resource value: 0x7f0e0039
 			public const int switch_thumb_normal_material_light = 2131623993;
 			
-			// aapt resource value: 0x7f0e006f
-			public const int text_shadow = 2131624047;
-			
 			// aapt resource value: 0x7f0e006e
-			public const int transparent = 2131624046;
+			public const int text_shadow = 2131624046;
 			
-			// aapt resource value: 0x7f0e0070
-			public const int white = 2131624048;
+			// aapt resource value: 0x7f0e006f
+			public const int white = 2131624047;
 			
 			// aapt resource value: 0x7f0e006d
 			public const int wood_style = 2131624045;
@@ -3240,23 +3240,23 @@ namespace LightControl
 			// aapt resource value: 0x7f09002e
 			public const int always = 2131296302;
 			
-			// aapt resource value: 0x7f0900ff
-			public const int background_color = 2131296511;
+			// aapt resource value: 0x7f090100
+			public const int background_color = 2131296512;
 			
 			// aapt resource value: 0x7f0900b9
 			public const int background_container = 2131296441;
 			
+			// aapt resource value: 0x7f090103
+			public const int background_dim = 2131296515;
+			
 			// aapt resource value: 0x7f090102
-			public const int background_dim = 2131296514;
+			public const int background_imagein = 2131296514;
 			
 			// aapt resource value: 0x7f090101
-			public const int background_imagein = 2131296513;
+			public const int background_imageout = 2131296513;
 			
-			// aapt resource value: 0x7f090100
-			public const int background_imageout = 2131296512;
-			
-			// aapt resource value: 0x7f0900fe
-			public const int background_theme = 2131296510;
+			// aapt resource value: 0x7f0900ff
+			public const int background_theme = 2131296511;
 			
 			// aapt resource value: 0x7f09002b
 			public const int beginning = 2131296299;
@@ -3681,8 +3681,8 @@ namespace LightControl
 			// aapt resource value: 0x7f09001b
 			public const int listMode = 2131296283;
 			
-			// aapt resource value: 0x7f0900f9
-			public const int list_container = 2131296505;
+			// aapt resource value: 0x7f0900fa
+			public const int list_container = 2131296506;
 			
 			// aapt resource value: 0x7f09004e
 			public const int list_item = 2131296334;
@@ -3701,6 +3701,9 @@ namespace LightControl
 			
 			// aapt resource value: 0x7f0900b0
 			public const int main_image = 2131296432;
+			
+			// aapt resource value: 0x7f0900f9
+			public const int map = 2131296505;
 			
 			// aapt resource value: 0x7f090041
 			public const int maxLines = 2131296321;
@@ -3849,14 +3852,14 @@ namespace LightControl
 			// aapt resource value: 0x7f090052
 			public const int spacer = 2131296338;
 			
-			// aapt resource value: 0x7f0900fc
-			public const int splashImageView = 2131296508;
-			
-			// aapt resource value: 0x7f0900fb
-			public const int splashScreen = 2131296507;
-			
 			// aapt resource value: 0x7f0900fd
-			public const int splashTextView = 2131296509;
+			public const int splashImageView = 2131296509;
+			
+			// aapt resource value: 0x7f0900fc
+			public const int splashScreen = 2131296508;
+			
+			// aapt resource value: 0x7f0900fe
+			public const int splashTextView = 2131296510;
 			
 			// aapt resource value: 0x7f090008
 			public const int split_action_bar = 2131296264;
@@ -3879,8 +3882,8 @@ namespace LightControl
 			// aapt resource value: 0x7f090072
 			public const int submit_area = 2131296370;
 			
-			// aapt resource value: 0x7f0900fa
-			public const int switchWidget = 2131296506;
+			// aapt resource value: 0x7f0900fb
+			public const int switchWidget = 2131296507;
 			
 			// aapt resource value: 0x7f09001d
 			public const int tabMode = 2131296285;
@@ -4509,6 +4512,12 @@ namespace LightControl
 			
 			// aapt resource value: 0x7f0b0014
 			public const int abc_toolbar_collapse_description = 2131427348;
+			
+			// aapt resource value: 0x7f0b0047
+			public const int about = 2131427399;
+			
+			// aapt resource value: 0x7f0b0048
+			public const int app_info = 2131427400;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int app_name = 2131427395;

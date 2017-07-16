@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
+using Android.Content;
 
 namespace LightControl
 {
@@ -50,34 +51,45 @@ namespace LightControl
 
         void listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
+            // Initialize fragment
+            Fragment fragment = null;
             // Get position of click
             var position = e.Position;
             switch (position)
             {
                 // Information
                 case 0:
-                    StartActivity(typeof(InformationActivity));
+                    fragment = new InformationFragment();
                     break;
                 // Weather
                 case 1:
-                    StartActivity(typeof(WeatherActivity));
+                    fragment = new WeatherFragment();
                     break;
                 // Outdoor lighting
                 case 2:
-                    StartActivity(typeof(OutdoorLightsActivity));
+                    fragment = new LightsFragment();
                     break;
                 // Jacuzzi
                 case 3:
-                    StartActivity(typeof(JacuzziActivity));
+                    fragment = new JacuzziFragment();
                     break;
                 // POI
                 case 4:
-                    StartActivity(typeof(PoiActivity));
+                    fragment = new PoiFragment();
                     break;
                 // About
                 case 5:
-                    StartActivity(typeof(AboutActivity));
+                    fragment = new AboutFragment();
                     break;
+            }
+            // Add fragment to transaction
+            if (fragment != null)
+            {
+                var fragmentTrans = FragmentManager.BeginTransaction();
+                fragmentTrans.Add(Resource.Id.content_frame, fragment);
+                fragmentTrans.Commit();
+                // Close the drawer after navigating to fragment.
+                drawerLayout.CloseDrawers();
             }
         }
 

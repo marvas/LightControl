@@ -82,16 +82,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutActivity.cs" />
-    <Compile Include="InformationActivity.cs" />
-    <Compile Include="JacuzziActivity.cs" />
+    <Compile Include="AboutFragment.cs" />
+    <Compile Include="InformationFragment.cs" />
+    <Compile Include="JacuzziFragment.cs" />
+    <Compile Include="LightsFragment.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="OutdoorLightsActivity.cs" />
-    <Compile Include="PoiActivity.cs" />
+    <Compile Include="PoiFragment.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashScreenActivity.cs" />
-    <Compile Include="WeatherActivity.cs" />
+    <Compile Include="WeatherFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />

@@ -4,4 +4,6 @@
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
     <string name="welcome">Kåfjord</string>
+    <string name="about">Kåfjord is an app developed to simply gather information about the summer house and the surrounding area.\n\n</string>
+    <string name="app_info">Developed by: Marius Vasshus\n\nVersion: 1.0</string>
 </resources>
