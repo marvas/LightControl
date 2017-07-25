@@ -6,6 +6,7 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Content;
+using System;
 
 namespace LightControl
 {
@@ -46,7 +47,6 @@ namespace LightControl
             drawerLayout.AddDrawerListener(drawerToggle);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             ActionBar.SetHomeButtonEnabled(true);
-
         }
 
         void listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
@@ -86,10 +86,25 @@ namespace LightControl
             if (fragment != null)
             {
                 var fragmentTrans = FragmentManager.BeginTransaction();
-                fragmentTrans.Add(Resource.Id.content_frame, fragment);
+                fragmentTrans.Replace(Resource.Id.content_frame, fragment);
+                fragmentTrans.AddToBackStack(null);
                 fragmentTrans.Commit();
+
                 // Close the drawer after navigating to fragment.
                 drawerLayout.CloseDrawers();
+            }
+        }
+
+        public override void OnBackPressed()
+        {
+            if (FragmentManager.BackStackEntryCount > 1)
+            {
+                FragmentManager.PopBackStack();
+            }
+            else
+            {
+                ActionBar.Title = "Kåfjord";
+                base.OnBackPressed();
             }
         }
 

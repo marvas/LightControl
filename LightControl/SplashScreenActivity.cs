@@ -28,7 +28,7 @@ namespace LightControl
             };
 
             // Delays start of main activity by set amount seconds
-            handler.PostDelayed(startMainActivity, 5000);
+            handler.PostDelayed(startMainActivity, 3000);
         }
     }
 }

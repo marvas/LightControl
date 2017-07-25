@@ -20,12 +20,19 @@ namespace LightControl
             base.OnCreate(savedInstanceState);
 
             // Create your fragment here
+            this.Activity.ActionBar.Title = "About";
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Custom view for this Fragment
             return inflater.Inflate(Resource.Layout.About, container, false);
+        }
+
+        public override void OnResume()
+        {
+            this.Activity.ActionBar.Title = "About";
+            base.OnResume();
         }
     }
 }
