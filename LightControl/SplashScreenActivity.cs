@@ -5,7 +5,7 @@ using System;
 
 namespace LightControl
 {
-    [Activity(MainLauncher = true, NoHistory = true, Label = "SplashScreen", 
+    [Activity(MainLauncher = true, NoHistory = true, Label = "Kåfjord", 
         Theme = "@android:style/Theme.NoTitleBar", Icon = "@drawable/Icon", 
         ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashScreenActivity : Activity
@@ -25,6 +25,8 @@ namespace LightControl
 
                 // Add custom fade in and fade out when switching to main activity
                 OverridePendingTransition(Resource.Animation.FadeIn, Resource.Animation.FadeOut);
+
+                Finish();
             };
 
             // Delays start of main activity by set amount seconds

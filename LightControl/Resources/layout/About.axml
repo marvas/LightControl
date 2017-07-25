@@ -10,7 +10,7 @@
       android:textColor="@color/white"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:gravity="top|center_horizontal"/>
+      android:gravity="center|center_horizontal"/>
     <TextView
       android:text="@string/app_info"
       android:textSize="17sp"
