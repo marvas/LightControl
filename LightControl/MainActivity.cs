@@ -10,7 +10,7 @@ using System;
 
 namespace LightControl
 {
-    [Activity(Label = "LightControl")]
+    [Activity(Label = "Kåfjord")]
     public class MainActivity : Activity
     {
         DrawerLayout drawerLayout;
