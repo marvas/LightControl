@@ -15,6 +15,7 @@ namespace LightControl
 {
     public class PoiFragment : Fragment
     {
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);

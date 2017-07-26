@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <RelativeLayout 
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/Detalj_ute_tak">
+    android:layout_height="wrap_content"
+    android:background="@color/kitchen_black">
     <TextView
+      android:id="@+id/about"
       android:text="@string/about"
       android:textSize="20sp"
       android:textColor="@color/white"
@@ -12,10 +16,18 @@
       android:layout_height="match_parent"
       android:gravity="center|center_horizontal"/>
     <TextView
+      android:id="@+id/app_info"
       android:text="@string/app_info"
       android:textSize="17sp"
       android:textColor="@color/white"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:gravity="bottom|center_horizontal"/>
+      android:gravity="bottom|center_horizontal"
+      android:layout_margin="16dp"/>
+  </RelativeLayout>
+  <View
+     android:layout_width="fill_parent"
+     android:layout_height="13dp"
+     android:background="@color/white"
+     android:layout_alignParentBottom="true"/>
 </RelativeLayout>

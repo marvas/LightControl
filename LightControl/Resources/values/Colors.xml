@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <color name="wood_style">#7FFFE4CD</color>
+    <color name="wood_style_solid">#FFFFE4CD</color>
     <color name="text_shadow">#7F000000</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="kitchen_black">#0E0905</color>
 </resources>
