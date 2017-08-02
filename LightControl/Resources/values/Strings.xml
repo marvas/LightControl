@@ -8,16 +8,17 @@
     <string name="app_info">Developed by: Marius Vasshus\n\nVersion: 1.0</string>
     <string name="arriving_title">Arriving:</string>
     <string name="arriving">
-      1.  When entering you will find light switches on the left hand. By switching off the top switch you will turn on the floor heat.\n\n
-      2.  Further down the hallway, on the left by the kitchen, you will find the ventilation panel. Turn the ventilation on.\n\n
+      1.  When entering you will find light switches on the left hand. By switching on the top switch you will turn on the floor heat.\n\n
+      2.  Further down the hallway, on the left by the kitchen, you will find the ventilation panel. Turn the ventilation up to three.\n\n
       3.  Here you will also find a panel to turn on the water. Turn on the water.\n
     </string>
     <string name="leaving_title">Leaving:</string>
     <string name="leaving">
-      1.  Before leaving turn on the top switch by the entrance door to lower the floor heat.\n\n
-      2.  Turn off the ventilation.\n\n
+      1.  Before leaving turn off the top switch by the entrance door to lower the floor heat.\n\n
+      2.  Turn down the ventilation to one.\n\n
       3.  Turn off the water.\n\n
       4.  Vacuum the summer house and clean the bathrooms.\n\n
       5.  Put everything you used back where you found it.
     </string>
+    <string name="googlePlayServices">AIzaSyAoHhWE3M83Upu3uphSFYcq_Z4SqTBlHG8</string>
 </resources>

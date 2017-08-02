@@ -5,54 +5,50 @@
     android:layout_height="match_parent"
     android:background="@color/kitchen_black">
     <View
-      android:layout_width="fill_parent"
-      android:layout_height="1dp"
-      android:background="@color/wood_style_solid"/>
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/wood_style_solid" />
     <TextView
-      android:id="@+id/arriving_title"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="@string/arriving_title"
-      android:textColor="@color/wood_style_solid"
-      android:textSize="19sp"/>
+        android:id="@+id/arriving_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arriving_title"
+        android:textColor="@color/wood_style_solid"
+        android:textSize="19sp" />
     <View
-      android:layout_width="fill_parent"
-      android:layout_height="1dp"
-      android:background="@color/wood_style_solid"/>
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/wood_style_solid" />
     <TextView
-      android:id="@+id/arriving_text"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="@string/arriving"
-      android:textColor="@color/white"
-      android:shadowColor="@color/text_shadow"
-      android:textSize="16sp"/>
-     <View
-      android:layout_width="fill_parent"
-      android:layout_height="1dp"
-      android:background="@color/wood_style_solid"/>
-     <TextView
-      android:id="@+id/leaving_title"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="@string/leaving_title"
-      android:textColor="@color/wood_style_solid"
-      android:textSize="19sp"/>
-     <View
-      android:layout_width="fill_parent"
-      android:layout_height="1dp"
-      android:background="@color/wood_style_solid"/>
+        android:id="@+id/arriving_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arriving"
+        android:textColor="@color/white"
+        android:shadowColor="@color/text_shadow"
+        android:textSize="16sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/wood_style_solid" />
     <TextView
-      android:id="@+id/leaving_text"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_below="@+id/arriving_text"
-      android:text="@string/leaving"
-      android:textColor="@color/white"
-      android:shadowColor="@color/text_shadow"
-      android:textSize="16sp"/>
-     <View
-      android:layout_width="fill_parent"
-      android:layout_height="1dp"
-      android:background="@color/wood_style_solid"/>
+        android:id="@+id/leaving_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leaving_title"
+        android:textColor="@color/wood_style_solid"
+        android:textSize="19sp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/wood_style_solid" />
+    <TextView
+        android:id="@+id/leaving_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arriving_text"
+        android:text="@string/leaving"
+        android:textColor="@color/white"
+        android:shadowColor="@color/text_shadow"
+        android:textSize="16sp" />
 </LinearLayout>
